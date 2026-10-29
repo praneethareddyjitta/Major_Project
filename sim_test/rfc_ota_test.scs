@@ -1,0 +1,70 @@
+simulator lang=spectre
+include "/home/install/FOUNDRY/analog/180nm/models/spectre/gpdk.scs" section=NN
+
+subckt rfc_ota (inp inm voutp voutm vdd gnd vb1 vb2 vb3 vb4 vb5)
+    // 1. TOP PMOS CURRENT SOURCES & TAIL
+    M9  (y1  vb1 vdd vdd) pmos1 w=3.0u l=2.0u
+    M10 (y2  vb1 vdd vdd) pmos1 w=3.0u l=2.0u
+    M12 (vs  vb2 vdd vdd) pmos1 w=1.0u l=0.5u
+
+    // 2. INPUT STAGE
+    M1a (y1  inp s11 gnd) nmos1 w=15.0u l=0.5u
+    M2a (y2  inm s11 gnd) nmos1 w=15.0u l=0.5u
+    M1b (z1  inp vs  vs ) pmos1 w=30.0u l=0.5u
+    M2b (z2  inm vs  vs ) pmos1 w=30.0u l=0.5u
+
+    // 3. PMOS CASCODES
+    M3a (voutm vb4 y1 vdd) pmos1 w=20.0u l=2.0u
+    M4a (voutp vb4 y2 vdd) pmos1 w=20.0u l=2.0u
+    M3b (node_x    vb4 z1 vdd) pmos1 w=20.0u l=2.0u
+    M4b (node_xbar vb4 z2 vdd) pmos1 w=20.0u l=2.0u
+
+    // 4. NMOS CASCODES
+    M5a (voutm    vb5 s5a gnd) nmos1 w=20.0u l=2.0u
+    M6a (voutp    vb5 s6a gnd) nmos1 w=20.0u l=2.0u
+    M5b (node_x    vb5 s5b gnd) nmos1 w=5.0u  l=2.0u
+    M6b (node_xbar vb5 s6b gnd) nmos1 w=5.0u  l=2.0u
+    M5c (node_x    vb5 s5c gnd) nmos1 w=15.0u l=2.0u
+    M6c (node_xbar vb5 s6c gnd) nmos1 w=15.0u l=2.0u
+
+    // 5. NMOS MIRRORS & CROSS-COUPLED PAIR
+    // Output branch (ratio k=4/3)
+    M7a (s5a   node_x    gnd gnd) nmos1 w=60.0u l=10.0u
+    M8a (s6a   node_xbar gnd gnd) nmos1 w=60.0u l=10.0u
+
+    // Diode-connected branch (ratio 1)
+    M7c (s5c   node_x    gnd gnd) nmos1 w=45.0u l=10.0u
+    M8c (s6c   node_xbar gnd gnd) nmos1 w=45.0u l=10.0u
+
+    // Positive local feedback branch (ratio m=1/3, cross-coupled)
+    M7b (s5b   node_xbar gnd gnd) nmos1 w=15.0u l=10.0u
+    M8b (s6b   node_x    gnd gnd) nmos1 w=15.0u l=10.0u
+
+    // 6. CMFB & NMOS TAIL
+    M11 (s11   vb3 scmfb gnd) nmos1 w=2.0u l=0.5u
+    M13 (scmfb voutm gnd gnd) nmos1 w=2.5u l=2.0u
+    M14 (scmfb voutp gnd gnd) nmos1 w=2.5u l=2.0u
+ends rfc_ota
+
+// Power supplies & bias sources (from Table 3 at 1.8V)
+Vdd (vdd 0) vsource dc=1.8
+Vgnd (gnd 0) vsource dc=0
+Vb1 (vb1 0) vsource dc=1.203
+Vb2 (vb2 0) vsource dc=1.273
+Vb3 (vb3 0) vsource dc=0.874
+Vb4 (vb4 0) vsource dc=0.801
+Vb5 (vb5 0) vsource dc=0.752
+
+// Input common mode
+VinP (inp 0) vsource dc=0.9
+VinM (inm 0) vsource dc=0.9
+
+// Instantiate OTA
+X1 (inp inm voutp voutm vdd gnd vb1 vb2 vb3 vb4 vb5) rfc_ota
+
+// Load caps
+CLp (voutp 0) capacitor c=1p
+CLm (voutm 0) capacitor c=1p
+
+op dc write="test.dc"
+save X1:oppoint
