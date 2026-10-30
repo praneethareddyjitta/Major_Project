@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="520" viewBox="0 0 750 520">
+<rect width="100%" height="100%" fill="#ffffff" />
+<text x="375.0" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a365d">Spectre AC Analysis: Differential Frequency Response (Actual Simulation from ac.ac)</text>
+<rect x="75" y="45" width="635" height="180" fill="#fcfcfc" stroke="#cbd5e0" stroke-width="1.2" />
+<rect x="75" y="280" width="635" height="180" fill="#fcfcfc" stroke="#cbd5e0" stroke-width="1.2" />
+<line x1="75.0" y1="45" x2="75.0" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="75.0" y1="280" x2="75.0" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="75.0" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">0.01Hz</text>
+<line x1="138.5" y1="45" x2="138.5" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="138.5" y1="280" x2="138.5" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="138.5" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">0.1Hz</text>
+<line x1="202.0" y1="45" x2="202.0" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="202.0" y1="280" x2="202.0" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="202.0" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">1Hz</text>
+<line x1="265.5" y1="45" x2="265.5" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="265.5" y1="280" x2="265.5" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="265.5" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">10Hz</text>
+<line x1="329.0" y1="45" x2="329.0" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="329.0" y1="280" x2="329.0" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="329.0" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">100Hz</text>
+<line x1="392.5" y1="45" x2="392.5" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="392.5" y1="280" x2="392.5" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="392.5" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">1kHz</text>
+<line x1="456.0" y1="45" x2="456.0" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="456.0" y1="280" x2="456.0" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="456.0" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">10kHz</text>
+<line x1="519.5" y1="45" x2="519.5" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="519.5" y1="280" x2="519.5" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="519.5" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">100kHz</text>
+<line x1="583.0" y1="45" x2="583.0" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="583.0" y1="280" x2="583.0" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="583.0" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">1MHz</text>
+<line x1="646.5" y1="45" x2="646.5" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="646.5" y1="280" x2="646.5" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="646.5" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">10MHz</text>
+<line x1="710.0" y1="45" x2="710.0" y2="225" stroke="#edf2f7" stroke-width="1" />
+<line x1="710.0" y1="280" x2="710.0" y2="460" stroke="#edf2f7" stroke-width="1" />
+<text x="710.0" y="478" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#718096">100MHz</text>
+<line x1="75" y1="202.5" x2="710" y2="202.5" stroke="#edf2f7" stroke-width="1" stroke-dasharray="none" />
+<text x="67" y="206.5" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#4a5568">-80 dB</text>
+<line x1="75" y1="157.5" x2="710" y2="157.5" stroke="#edf2f7" stroke-width="1" stroke-dasharray="none" />
+<text x="67" y="161.5" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#4a5568">-40 dB</text>
+<line x1="75" y1="112.5" x2="710" y2="112.5" stroke="#cbd5e0" stroke-width="1.5" stroke-dasharray="4,3" />
+<text x="67" y="116.5" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#4a5568">0 dB</text>
+<line x1="75" y1="67.5" x2="710" y2="67.5" stroke="#edf2f7" stroke-width="1" stroke-dasharray="none" />
+<text x="67" y="71.5" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#4a5568">40 dB</text>
+<line x1="75" y1="460.0" x2="710" y2="460.0" stroke="#edf2f7" stroke-width="1" stroke-dasharray="none" />
+<text x="67" y="464.0" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#4a5568">-180&deg;</text>
+<line x1="75" y1="415.0" x2="710" y2="415.0" stroke="#edf2f7" stroke-width="1" stroke-dasharray="none" />
+<text x="67" y="419.0" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#4a5568">-90&deg;</text>
+<line x1="75" y1="370.0" x2="710" y2="370.0" stroke="#cbd5e0" stroke-width="1.5" stroke-dasharray="4,3" />
+<text x="67" y="374.0" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#4a5568">0&deg;</text>
+<line x1="75" y1="325.0" x2="710" y2="325.0" stroke="#edf2f7" stroke-width="1" stroke-dasharray="none" />
+<text x="67" y="329.0" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#4a5568">90&deg;</text>
+<line x1="75" y1="280.0" x2="710" y2="280.0" stroke="#edf2f7" stroke-width="1" stroke-dasharray="none" />
+<text x="67" y="284.0" font-family="Arial, sans-serif" font-size="10" text-anchor="end" fill="#4a5568">180&deg;</text>
+<text x="87" y="65" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2b6cb0">Differential Magnitude Response |Av(f)| (dB)</text>
+<text x="87" y="300" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c53030">Phase Response &Phi;(f) (Degrees)</text>
+<text x="375.0" y="498" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2d3748">Frequency (Hz)</text>
+<polyline points="75.0,69.0 78.2,68.6 81.3,68.3 84.5,68.0 87.7,67.8 90.9,67.6 94.0,67.4 97.2,67.3 100.4,67.2 103.6,67.2 106.7,67.1 109.9,67.1 113.1,67.1 116.3,67.1 119.4,67.1 122.6,67.1 125.8,67.1 129.0,67.2 132.1,67.3 135.3,67.4 138.5,67.6 141.7,67.7 144.8,68.0 148.0,68.2 151.2,68.5 154.4,68.9 157.5,69.3 160.7,69.8 163.9,70.4 167.1,71.0 170.2,71.7 173.4,72.5 176.6,73.3 179.8,74.1 182.9,75.0 186.1,75.9 189.3,76.9 192.5,77.9 195.6,78.9 198.8,80.0 202.0,81.0 205.2,82.1 208.3,83.2 211.5,84.3 214.7,85.4 217.9,86.5 221.0,87.6 224.2,88.7 227.4,89.8 230.6,90.9 233.7,92.0 236.9,93.2 240.1,94.3 243.3,95.4 246.4,96.5 249.6,97.6 252.8,98.8 256.0,99.9 259.1,101.0 262.3,102.1 265.5,103.3 268.7,104.4 271.8,105.5 275.0,106.6 278.2,107.8 281.4,108.9 284.5,110.0 287.7,111.1 290.9,112.3 294.1,113.4 297.2,114.5 300.4,115.6 303.6,116.8 306.8,117.9 309.9,119.0 313.1,120.2 316.3,121.3 319.5,122.4 322.6,123.6 325.8,124.7 329.0,125.9 332.2,127.0 335.3,128.2 338.5,129.3 341.7,130.5 344.9,131.7 348.0,132.9 351.2,134.1 354.4,135.3 357.6,136.6 360.7,137.8 363.9,139.1 367.1,140.5 370.3,141.9 373.4,143.3 376.6,144.7 379.8,146.2 383.0,147.7 386.1,149.2 389.3,150.7 392.5,152.3 395.7,153.9 398.8,155.5 402.0,157.1 405.2,158.8 408.4,160.5 411.5,162.2 414.7,164.0 417.9,165.8 421.1,167.7 424.2,169.6 427.4,171.6 430.6,173.6 433.8,175.6 436.9,177.7 440.1,179.8 443.3,181.9 446.5,184.1 449.6,186.2 452.8,188.4 456.0,190.6 459.2,192.8 462.3,195.1 465.5,197.3 468.7,199.5 471.9,201.7 475.0,204.0 478.2,206.2 481.4,208.5 484.6,210.7 487.7,212.9 490.9,215.2 494.1,217.4 497.3,219.7 500.4,221.9 503.6,224.2 506.8,225.0 510.0,225.0 513.1,225.0 516.3,225.0 519.5,225.0 522.7,225.0 525.8,225.0 529.0,225.0 532.2,225.0 535.4,225.0 538.5,225.0 541.7,225.0 544.9,225.0 548.1,225.0 551.2,225.0 554.4,225.0 557.6,225.0 560.8,225.0 563.9,225.0 567.1,225.0 570.3,225.0 573.5,225.0 576.6,225.0 579.8,225.0 583.0,225.0 586.2,225.0 589.3,225.0 592.5,225.0 595.7,225.0 598.9,225.0 602.0,225.0 605.2,225.0 608.4,225.0 611.6,225.0 614.7,225.0 617.9,225.0 621.1,225.0 624.3,225.0 627.4,225.0 630.6,225.0 633.8,225.0 637.0,225.0 640.1,225.0 643.3,225.0 646.5,225.0 649.7,225.0 652.8,225.0 656.0,225.0 659.2,225.0 662.4,225.0 665.5,225.0 668.7,225.0 671.9,225.0 675.1,225.0 678.2,225.0 681.4,225.0 684.6,225.0 687.8,225.0 690.9,225.0 694.1,225.0 697.3,225.0 700.5,225.0 703.6,225.0 706.8,225.0 710.0,225.0" fill="none" stroke="#2b6cb0" stroke-width="2.2" />
+<polyline points="75.0,352.5 78.2,354.2 81.3,355.9 84.5,357.5 87.7,359.0 90.9,360.5 94.0,361.9 97.2,363.3 100.4,364.6 103.6,365.8 106.7,367.0 109.9,368.2 113.1,369.3 116.3,370.5 119.4,371.6 122.6,372.8 125.8,374.0 129.0,375.2 132.1,376.5 135.3,377.8 138.5,379.2 141.7,380.7 144.8,382.2 148.0,383.8 151.2,385.4 154.4,387.1 157.5,388.9 160.7,390.6 163.9,392.4 167.1,394.1 170.2,395.8 173.4,397.4 176.6,399.0 179.8,400.5 182.9,401.9 186.1,403.1 189.3,404.3 192.5,405.4 195.6,406.4 198.8,407.3 202.0,408.1 205.2,408.8 208.3,409.5 211.5,410.1 214.7,410.6 217.9,411.1 221.0,411.5 224.2,411.9 227.4,412.3 230.6,412.6 233.7,412.9 236.9,413.1 240.1,413.4 243.3,413.6 246.4,413.8 249.6,413.9 252.8,414.1 256.0,414.2 259.1,414.4 262.3,414.5 265.5,414.6 268.7,414.7 271.8,414.8 275.0,415.0 278.2,415.1 281.4,415.2 284.5,415.3 287.7,415.4 290.9,415.5 294.1,415.6 297.2,415.8 300.4,415.9 303.6,416.1 306.8,416.3 309.9,416.5 313.1,416.7 316.3,416.9 319.5,417.2 322.6,417.4 325.8,417.7 329.0,418.1 332.2,418.5 335.3,418.9 338.5,419.4 341.7,419.9 344.9,420.5 348.0,421.1 351.2,421.8 354.4,422.5 357.6,423.3 360.7,424.2 363.9,425.1 367.1,426.0 370.3,427.0 373.4,428.0 376.6,429.0 379.8,430.0 383.0,431.1 386.1,432.1 389.3,433.1 392.5,434.1 395.7,435.2 398.8,436.2 402.0,437.3 405.2,438.5 408.4,439.6 411.5,440.8 414.7,442.1 417.9,443.3 421.1,444.5 424.2,445.8 427.4,447.0 430.6,448.1 433.8,449.2 436.9,450.2 440.1,451.1 443.3,452.0 446.5,452.8 449.6,453.6 452.8,454.2 456.0,454.8 459.2,455.4 462.3,455.9 465.5,456.3 468.7,456.7 471.9,457.1 475.0,457.4 478.2,457.7 481.4,457.9 484.6,458.1 487.7,458.3 490.9,458.5 494.1,458.7 497.3,458.8 500.4,459.0 503.6,459.1 506.8,459.2 510.0,459.3 513.1,459.4 516.3,459.4 519.5,459.5 522.7,459.6 525.8,459.6 529.0,459.7 532.2,459.7 535.4,459.8 538.5,459.8 541.7,459.8 544.9,459.9 548.1,459.9 551.2,459.9 554.4,460.0 557.6,280.0 560.8,280.0 563.9,280.1 567.1,280.1 570.3,280.1 573.5,280.2 576.6,280.2 579.8,280.2 583.0,280.3 586.2,280.3 589.3,280.4 592.5,280.4 595.7,280.5 598.9,280.6 602.0,280.7 605.2,280.7 608.4,280.8 611.6,280.9 614.7,281.1 617.9,281.2 621.1,281.3 624.3,281.5 627.4,281.7 630.6,281.9 633.8,282.1 637.0,282.4 640.1,282.7 643.3,283.0 646.5,283.4 649.7,283.8 652.8,284.3 656.0,284.8 659.2,285.4 662.4,286.0 665.5,286.7 668.7,287.5 671.9,288.4 675.1,289.4 678.2,290.5 681.4,291.6 684.6,292.9 687.8,294.3 690.9,295.8 694.1,297.5 697.3,299.2 700.5,301.0 703.6,302.9 706.8,304.8 710.0,306.8" fill="none" stroke="#c53030" stroke-width="2.2" />
+<rect x="390" y="80" width="310" height="60" fill="#fffaf0" stroke="#dd6b20" rx="4" />
+<text x="400" y="97" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#c05621">Testbench Note (tb_ac_openloop.scs):</text>
+<text x="400" y="113" font-family="Arial, sans-serif" font-size="9.5" fill="#7b341e">Feedback inductors (1GH) pulled DC point to 0.37V,</text>
+<text x="400" y="127" font-family="Arial, sans-serif" font-size="9.5" fill="#7b341e">reducing gain to 40.35 dB (Paper target is 97.23 dB at 0.9V).</text>
+</svg>
